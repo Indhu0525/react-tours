@@ -22,26 +22,32 @@ const Header = () => {
           <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse border p-1">
             <img src="#" class="h-8" alt="Flowbite Logo" />
           </a>
+          <button data-collapse-toggle="navbar-search" type="button" class=" items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden inline-flex  border " aria-controls="navbar-search" aria-expanded="false">
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+              </svg>
+            </button>
           <div class="flex md:order-2 gap-3">
             <div className="flex items-center border border-gray-300 rounded-md p-1.5 w-72">
               <input
                 type="text"
                 placeholder="Search"
-                className="w-full outline-none pl-1 text-gray-700 border-none p-0 "
+                className="w-full outline-none pl-1 text-gray-700 border-none p-0 focus:outline-none focus:ring-0 focus:ring-transparent"
               />
-              <button className="p-1.5 ps-3 border-s-2 border-slate-300">
+              <button className="p-1.5 ps-3 border-s-2 border-slate-300 ">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                   <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
                 </svg>
               </button>
             </div>
-            <button data-collapse-toggle="navbar-search" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden border " aria-controls="navbar-search" aria-expanded="false">
+            <button data-collapse-toggle="navbar-search" type="button" class=" items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg hidden md:inline-flex lg:hidden border " aria-controls="navbar-search" aria-expanded="false">
               <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
               </svg>
             </button>
           </div>
           <div class="items-center justify-between hidden w-full lg:flex md:w-auto md:order-1" id="navbar-search">
+         
             <div class="relative mt-3 lg:hidden">
               <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                 <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
@@ -50,6 +56,7 @@ const Header = () => {
               </div>
               <input type="text" id="search-navbar" class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search..." />
             </div>
+           
             <ul class="flex flex-col p-3 md:p-0 mt-4 space-x-3 font-medium border border-gray-100 rounded-lg bg-gray-50 lg:flex-row md:mt-0 md:border-0 md:bg-white ">
               <li class="m-0">
                 <a href="#" class="block p-2 text-slate-800 rounded font-normal " aria-current="page">Destination</a>
