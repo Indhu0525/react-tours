@@ -94,9 +94,6 @@ const Cardslider = () => {
       </div>
     </SwiperSlide>
   </Swiper>
-
-
-
 <HR class="mt-20"></HR>
   <h2 className="text-xl font-bold text-center my-12">
     Explore popular Cities
@@ -125,7 +122,6 @@ const Cardslider = () => {
       }
     }}
   >
-    
     <SwiperSlide>
       <div className="rounded-2xl h-96 flex flex-col justify-center items-center">
       <img src={bgCover3} alt="Slide 1" className="object-cover h-80 rounded-sm" />

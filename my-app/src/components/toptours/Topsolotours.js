@@ -13,14 +13,13 @@ const Topsolotours = () => {
                         <button type="button" class="border   border-slate-300 hover:border-slate-700 font-medium rounded-sm text-sm p-2 text-center inline-flex items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#666666"><path d="M630-444H192v-72h438L429-717l51-51 288 288-288 288-51-51 201-201Z" /></svg>
                         </button>
-
                     </div>
                 </div>
                 <div class="grid grid-cols-1 gap-4 mb-4">
                     <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg ">
                         <div className="relative">
                             <a href="# ">
-                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full" />
+                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full rounded-lg" />
                             </a>
                             <div className="absolute bottom-2 right-2 flex space-x-2">
                                 <button className="bg-white p-2 rounded-full shadow border-gray-700">
@@ -31,7 +30,6 @@ const Topsolotours = () => {
                                 </button>
                             </div>
                         </div>
-
                         <div class="px-5 py-3">
                             <a href="#">
                                 <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 ">THAILAND: Adventure to Chiang Mai, Phuket and Beaches</h5>
@@ -42,10 +40,10 @@ const Topsolotours = () => {
                     </div>
                 </div>
                 <div class="grid grid-cols-1  md:grid-cols-3 lg:grid-cols-4 gap-4 ">
-                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg ">
+                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg p-2">
                         <div className="relative">
                             <a href="# ">
-                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full" />
+                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full rounded-lg" />
                             </a>
                             <div className="absolute bottom-2 right-2 flex space-x-2">
                                 <button className="bg-white p-2 rounded-full shadow border-gray-700">
@@ -65,10 +63,10 @@ const Topsolotours = () => {
                             <p class="mb-3 font-normal text-gray-700 ">From <span class="ml-2 font-bold text-gray-900">$1,000</span><span class="ml-2 line-through">$1000</span><span class="ml-2 text-lg text-yellow-300">Sale</span></p>
                         </div>
                     </div>
-                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg ">
+                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg p-2">
                         <div className="relative">
                             <a href="# ">
-                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full" />
+                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full rounded-lg" />
                             </a>
                             <div className="absolute bottom-2 right-2 flex space-x-2">
                                 <button className="bg-white p-2 rounded-full shadow border-gray-700">
@@ -88,10 +86,10 @@ const Topsolotours = () => {
                             <p class="mb-3 font-normal text-gray-700 ">From <span class="ml-2 font-bold text-gray-900">$1,000</span><span class="ml-2 line-through">$1000</span><span class="ml-2 text-lg text-yellow-300">Sale</span></p>
                         </div>
                     </div>
-                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg ">
+                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg p-2">
                         <div className="relative">
                             <a href="# ">
-                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full" />
+                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full rounded-lg" />
                             </a>
                             <div className="absolute bottom-2 right-2 flex space-x-2">
                                 <button className="bg-white p-2 rounded-full shadow border-gray-700">
@@ -111,10 +109,10 @@ const Topsolotours = () => {
                             <p class="mb-3 font-normal text-gray-700 ">From <span class="ml-2 font-bold text-gray-900">$1,000</span><span class="ml-2 line-through">$1000</span><span class="ml-2 text-lg text-yellow-300">Sale</span></p>
                         </div>
                     </div>
-                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg ">
+                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg p-2">
                         <div className="relative">
                             <a href="# ">
-                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full" />
+                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full rounded-lg" />
                             </a>
                             <div className="absolute bottom-2 right-2 flex space-x-2">
                                 <button className="bg-white p-2 rounded-full shadow border-gray-700">
@@ -136,7 +134,7 @@ const Topsolotours = () => {
                     </div>
                 </div>
                 <div class="flex justify-end items-end my-8">
-                    <button type="button" class="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90  font-bold rounded-sm text-sm px-3 py-2.5 text-center inline-flex items-center">
+                    <button type="button" class="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90  font-medium rounded-sm text-sm px-4 py-2.5 text-center inline-flex items-center">
                         See more tours
                     </button>
                 </div>

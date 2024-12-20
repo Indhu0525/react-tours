@@ -8,13 +8,13 @@ import Daytourspage from './daytours/Daytourspage';
 import Grouptours from './groupstyles/Grouptours';
 import Topsolotours from './toptours/Topsolotours';
 import Lastestarticles from './articles/Lastestarticles';
-
 import Cardslider from './swipers/Cardslider';
 import Travelerssay from './travelers/Travelerssay';
 export default function MyCarousel() {
     
     return (
         <div>
+            {/* carousel */}
             <div className="mx-auto h-[600px] mt-2">
                 <Carousel controls={false}>
                     <div className="relative h-full">
@@ -32,7 +32,7 @@ export default function MyCarousel() {
                                 <div className="relative  md:[24rem] bg-transparent backdrop-blur-sm border border-gray-600 rounded-sm">
 
                                     <Dropdown inlinedismissOnClick={false} renderTrigger={() => (
-                                        <button className="flex items-center justify-between w-full px-4 py-2 text-gray-200" type="button">
+                                        <button className="flex items-center justify-between w-[24rem] px-4 py-2 text-gray-200" type="button">
                                             <span class="text-xs md:text-sm">Find destination ...</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#F3F3F3"><path d="M480-346.85 253.85-573 291-610.15l189 189 189-189L706.15-573 480-346.85Z" /></svg>
                                         </button>
@@ -82,6 +82,7 @@ export default function MyCarousel() {
                     </div>
                 </Carousel>
             </div>
+            {/* Recently viewed tours */}
             <div class="mx-auto max-w-screen-xl ">
                 <div class="flex mt-24 mb-16 justify-between ">
                     <h2 class="text-2xl font-bold">Recently viewed tours</h2>
@@ -96,10 +97,10 @@ export default function MyCarousel() {
                     </div>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 ">
-                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg ">
+                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg p-2">
                         <div className="relative">
                             <a href="# ">
-                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full" />
+                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full rounded-lg" />
                             </a>
                             <div className="absolute bottom-2 right-2 flex space-x-2">
                                 <button className="bg-white p-2 rounded-full shadow border-gray-700">
@@ -119,10 +120,10 @@ export default function MyCarousel() {
                             <p class="mb-3 font-normal text-gray-700 ">From <span class="ml-2 font-bold text-gray-900">$1,000</span><span class="ml-2 line-through">$1000</span><span class="ml-2 text-lg text-yellow-300">Sale</span></p>
                         </div>
                     </div>
-                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg ">
+                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg p-2">
                         <div className="relative">
                             <a href="# ">
-                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full" />
+                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full rounded-lg" />
                             </a>
                             <div className="absolute bottom-2 right-2 flex space-x-2">
                                 <button className="bg-white p-2 rounded-full shadow border-gray-700">
@@ -141,10 +142,10 @@ export default function MyCarousel() {
                             <p class="mb-3 font-normal text-gray-700 ">From <span class="ml-2 font-bold text-gray-900">$1,000</span><span class="ml-2 line-through">$1000</span><span class="ml-2 text-lg text-yellow-300">Sale</span></p>
                         </div>
                     </div>
-                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg ">
+                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg p-2">
                         <div className="relative">
                             <a href="# ">
-                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full" />
+                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full rounded-lg" />
                             </a>
                             <div className="absolute bottom-2 right-2 flex space-x-2">
                                 <button className="bg-white p-2 rounded-full shadow border-gray-700">
@@ -165,6 +166,7 @@ export default function MyCarousel() {
                     </div>
                 </div>
             </div>
+            {/*popular trip themes  */}
             <div class="mx-auto max-w-screen-xl">
                 <div class="flex mt-24 mb-16 justify-between ">
                     <h2 class="text-2xl font-bold">Popular trip themes</h2>
@@ -178,24 +180,20 @@ export default function MyCarousel() {
 
                     </div>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 ">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4 ">
                     <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg ">
                         <div className="relative">
                             <a href="# ">
                                 <img src={bgCover3} alt="Slide 1" className="object-cover h-72 " />
                             </a>
                             <div class="flex justify-center">
-                                <div className="absolute bottom-2  flex space-x-2 mx-2">
+                                <div className="absolute bottom-5  flex space-x-2 mx-2">
                                     <button className="bg-white p-2 rounded-sm border-gray-700 shadow font-semibold w-44">
                                         Solo travellers
                                     </button>
-
                                 </div>
                             </div>
-
                         </div>
-
-
                     </div>
                     <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg ">
                         <div className="relative">
@@ -203,7 +201,7 @@ export default function MyCarousel() {
                                 <img src={bgCover3} alt="Slide 1" className="object-cover h-72 " />
                             </a>
                             <div class="flex justify-center">
-                                <div className="absolute bottom-2  flex space-x-2 mx-2">
+                                <div className="absolute bottom-5   flex space-x-2 mx-2">
                                     <button className="bg-white p-2 rounded-sm border-gray-700 font-semibold shadow w-44">
                                         Solo travellers
                                     </button>
@@ -221,7 +219,25 @@ export default function MyCarousel() {
                                 <img src={bgCover3} alt="Slide 1" className="object-cover h-72 " />
                             </a>
                             <div class="flex justify-center">
-                                <div className="absolute bottom-2  flex space-x-2 mx-2">
+                                <div className="absolute bottom-5  flex space-x-2 mx-2">
+                                    <button className="bg-white p-2 rounded-sm border-gray-700 font-semibold shadow w-44">
+                                        Solo travellers
+                                    </button>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class=" w-full bg-white border-2 border-gray-200 rounded-lg shadow-lg ">
+                        <div className="relative">
+                            <a href="# ">
+                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 " />
+                            </a>
+                            <div class="flex justify-center">
+                                <div className="absolute bottom-5  flex space-x-2 mx-2">
                                     <button className="bg-white p-2 rounded-sm border-gray-700 font-semibold shadow w-44">
                                         Solo travellers
                                     </button>
@@ -235,6 +251,7 @@ export default function MyCarousel() {
                     </div>
                 </div>
             </div>
+            {/* newsletter */}
             <div class="p-0 md:px-8 py-12">
                 <div className="relative w-full h-72">
                     <img
@@ -243,7 +260,7 @@ export default function MyCarousel() {
                         className="object-cover w-full h-full"
                     />
                     <div className="absolute inset-0 bg-white/70 flex items-end justify-end p-0  md:px-16 py-8">
-                        <div className="flex flex-col justify-center items-center flex-grow max-w-2xl">
+                        <div className="flex flex-col justify-center items-start flex-grow max-w-2xl">
                             <h2 className="md:text-3xl text-lg font-bold text-gray-800 mb-4">
                                 Join Our Newsletter
                             </h2>
@@ -251,7 +268,7 @@ export default function MyCarousel() {
                                 Stay updated on exclusive specials, new tours, travel tips and articles
                             </p>
                             <form className="block md:inline-flex  items-center gap-4 justify-center">
-                                <input type="email" placeholder="Enter your email" className="flex justify-center items-center flex-grow px-4 py-2 border rounded-md " />
+                                <input type="email" placeholder="Enter your email" className="flex justify-center items-center flex-grow px-2 py-2 border rounded-md w-[18rem] text-sm" />
                                 <button className="bg-gray-900 text-gray-100 px-6 py-2 flex justify-center items-center rounded-md mt-3 md:m-0 ">
                                     Subscribe
                                 </button>
@@ -261,6 +278,7 @@ export default function MyCarousel() {
                 </div>
 
             </div>
+            {/* popular tours */}
             <div class="mx-auto max-w-screen-xl ">
                 <div class="flex mt-24 mb-16 justify-between ">
                     <h2 class="text-2xl font-bold">Our most  popular tours</h2>
@@ -275,10 +293,10 @@ export default function MyCarousel() {
                     </div>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4  mb-3">
-                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg ">
+                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg p-2">
                         <div className="relative">
                             <a href="# ">
-                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full" />
+                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full rounded-lg" />
                             </a>
                             <div className="absolute bottom-2 right-2 flex space-x-2">
                                 <button className="bg-white p-2 rounded-full shadow border-gray-700">
@@ -298,10 +316,10 @@ export default function MyCarousel() {
                             <p class="mb-3 font-normal text-gray-700 ">From <span class="ml-2 font-bold text-gray-900">$1,000</span><span class="ml-2 line-through">$1000</span><span class="ml-2 text-lg text-yellow-300">Sale</span></p>
                         </div>
                     </div>
-                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg ">
+                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg p-2">
                         <div className="relative">
                             <a href="# ">
-                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full" />
+                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full rounded-lg" />
                             </a>
                             <div className="absolute bottom-2 right-2 flex space-x-2">
                                 <button className="bg-white p-2 rounded-full shadow border-gray-700">
@@ -322,10 +340,10 @@ export default function MyCarousel() {
                     </div>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ">
-                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg ">
+                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg p-2">
                         <div className="relative">
                             <a href="# ">
-                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full" />
+                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full rounded-lg" />
                             </a>
                             <div className="absolute bottom-2 right-2 flex space-x-2">
                                 <button className="bg-white p-2 rounded-full shadow border-gray-700">
@@ -346,10 +364,10 @@ export default function MyCarousel() {
                         </div>
                     </div>
 
-                    <div class="w-full bg-white border border-gray-200 rounded-lg shadow-lg ">
+                    <div class="w-full bg-white border border-gray-200 rounded-lg shadow-lg p-2">
                         <div className="relative">
                             <a href="# ">
-                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full" />
+                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full rounded-lg" />
                             </a>
                             <div className="absolute bottom-2 right-2 flex space-x-2">
                                 <button className="bg-white p-2 rounded-full shadow border-gray-700">
@@ -368,10 +386,10 @@ export default function MyCarousel() {
                             <p class="mb-3 font-normal text-gray-700 ">From <span class="ml-2 font-bold text-gray-900">$1,000</span><span class="ml-2 line-through">$1000</span><span class="ml-2 text-lg text-yellow-300">Sale</span></p>
                         </div>
                     </div>
-                    <div class="w-full bg-white border border-gray-200 rounded-lg shadow-lg ">
+                    <div class="w-full bg-white border border-gray-200 rounded-lg shadow-lg p-2">
                         <div className="relative">
                             <a href="# ">
-                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full" />
+                                <img src={bgCover3} alt="Slide 1" className="object-cover h-72 w-full rounded-lg" />
                             </a>
                             <div className="absolute bottom-2 right-2 flex space-x-2">
                                 <button className="bg-white p-2 rounded-full shadow border-gray-700">
@@ -392,7 +410,7 @@ export default function MyCarousel() {
                     </div>
                 </div>
                 <div class="flex justify-end items-end my-8">
-                    <button type="button" class="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90  font-bold rounded-sm text-sm px-3 py-2.5 text-center inline-flex items-center">
+                    <button type="button" class="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90  font-medium rounded-md text-sm px-4 py-2.5 text-center inline-flex items-center">
                         See more tours
                     </button>
                 </div>
@@ -461,7 +479,7 @@ export default function MyCarousel() {
 </div>
 <Grouptours/>
 <Topsolotours/>
-<div class="  py-12">
+<div class=" py-12">
                 <div className="relative w-full h-72">
                     <img
                         src={newsbg}
@@ -480,7 +498,7 @@ export default function MyCarousel() {
                                 Stay updated on exclusive specials, new tours, travel tips and articles
                             </p>
                             <div class="flex justify-center items-center mt-8">
-                    <button type="button" class="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90  font-bold rounded-md text-sm px-4 py-2.5 text-center inline-flex items-center">
+                    <button type="button" class="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90  font-medium rounded-sm text-sm px-4 py-2.5 text-center inline-flex items-center">
                         Request quote
                     </button>
                 </div>
@@ -543,10 +561,8 @@ export default function MyCarousel() {
   </div>
 </div>
 <Travelerssay/>
-<HR class="mt-16 mb-0"></HR>
+<HR class="m-16 "></HR>
 <Cardslider/>
-
-
         </div>
     );
 }

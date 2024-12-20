@@ -32,7 +32,7 @@ const Header = () => {
               <input
                 type="text"
                 placeholder="Search"
-                className="w-full outline-none pl-1 text-gray-700 border-none p-0 focus:outline-none focus:ring-0 focus:ring-transparent"
+                className="w-full outline-none pl-1 text-gray-700 border-none p-0 focus:outline-none focus:ring-0 focus:ring-transparent placeholder:text-gray-400 text-sm"
               />
               <button className="p-1.5 ps-3 border-s-2 border-slate-300 ">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">

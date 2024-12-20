@@ -19,10 +19,10 @@ const Daytourspage = () => {
                     </div>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 ">
-                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg ">
+                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg p-2">
                         <div className="relative">
                             <a href="# ">
-                                <img src={bgcover5} alt="Slide 1" className="object-cover h-72 w-full" />
+                                <img src={bgcover5} alt="Slide 1" className="object-cover h-72 w-full rounded-lg" />
                             </a>
                             <div className="absolute bottom-2 right-2 flex space-x-2">
                                 <button className="bg-white p-2 rounded-full shadow border-gray-700">
@@ -42,10 +42,10 @@ const Daytourspage = () => {
                             <p class="mb-3 font-normal text-gray-700 ">From <span class="ml-2 font-bold text-gray-900">$1,000</span><span class="ml-2 line-through">$1000</span><span class="ml-2 text-lg text-yellow-300">Sale</span></p>
                         </div>
                     </div>
-                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg ">
+                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg p-2">
                         <div className="relative">
                             <a href="# ">
-                                <img src={bgcover5} alt="Slide 1" className="object-cover h-72 w-full" />
+                                <img src={bgcover5} alt="Slide 1" className="object-cover h-72 w-full rounded-lg" />
                             </a>
                             <div className="absolute bottom-2 right-2 flex space-x-2">
                                 <button className="bg-white p-2 rounded-full shadow border-gray-700">
@@ -64,10 +64,10 @@ const Daytourspage = () => {
                             <p class="mb-3 font-normal text-gray-700 ">From <span class="ml-2 font-bold text-gray-900">$1,000</span><span class="ml-2 line-through">$1000</span><span class="ml-2 text-lg text-yellow-300">Sale</span></p>
                         </div>
                     </div>
-                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg ">
+                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg p-2">
                         <div className="relative">
                             <a href="# ">
-                                <img src={bgcover5} alt="Slide 1" className="object-cover h-72 w-full" />
+                                <img src={bgcover5} alt="Slide 1" className="object-cover h-72 w-full rounded-lg" />
                             </a>
                             <div className="absolute bottom-2 right-2 flex space-x-2">
                                 <button className="bg-white p-2 rounded-full shadow border-gray-700">
@@ -86,10 +86,10 @@ const Daytourspage = () => {
                             <p class="mb-3 font-normal text-gray-700 ">From <span class="ml-2 font-bold text-gray-900">$1,000</span><span class="ml-2 line-through">$1000</span><span class="ml-2 text-lg text-yellow-300">Sale</span></p>
                         </div>
                     </div>
-                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg ">
+                    <div class=" w-full bg-white border border-gray-200 rounded-lg shadow-lg p-2">
                         <div className="relative">
                             <a href="# ">
-                                <img src={bgcover5} alt="Slide 1" className="object-cover h-72 w-full" />
+                                <img src={bgcover5} alt="Slide 1" className="object-cover h-72 w-full rounded-lg" />
                             </a>
                             <div className="absolute bottom-2 right-2 flex space-x-2">
                                 <button className="bg-white p-2 rounded-full shadow border-gray-700">
